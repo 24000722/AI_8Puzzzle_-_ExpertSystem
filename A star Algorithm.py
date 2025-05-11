@@ -104,9 +104,9 @@ def print_board(board):
 # This is where the program starts running
 if __name__ == "__main__":
     # Starting board layout (o is the blank tile)
-    start_board = [[6, 2, 8],
-                   [4, 7, 1],
-                   [0, 3, 5]]
+    start_board = [[1, 2, 3],
+                   [4, 0, 5],
+                   [6, 7, 8]]
 
     solution = a_star(start_board)
 
